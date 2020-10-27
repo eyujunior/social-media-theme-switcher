@@ -1,0 +1,48 @@
+
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html
+{
+    font-size: 10px;
+    font-family: 'dosis';
+    letter-spacing: 1px;
+}
+.container
+{
+    width: 110rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.main
+{
+    background-color: hsl(230, 17%, 14%);
+    height: 100%;
+    padding-bottom: 4rem;
+
+    &.white
+    {
+        background-color: hsl(0, 0%, 100%);
+
+        .grid-item, .overview_items
+        {
+            background-color: hsl(227, 47%, 96%) ;
+        }
+
+        span
+        {
+            color: hsl(228, 12%, 44%) ;
+        }
+        h1, .overviews_stats
+        {
+            color: hsl(230, 17%, 14%);
+        }
+    }
+}

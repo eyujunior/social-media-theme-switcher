@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    padding: 8rem 8rem 16rem 8rem;
+    background-color: #20222f;
+    color: hsl(0, 0%, 100%);
+
+    &.light {
+        background-color: #f8f9fe !important;
+
+        .heading-1 {
+            color: hsl(230, 17%, 14%);
+        }
+        .sub-heading
+        {
+            color: hsl(228, 12%, 44%);
+        }
+    }
+
+    .toggle {
+        display: flex;
+
+        input {
+            margin: 0 0 0 1rem;
+        }
+    }
+}
+
+.heading-1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-family: "roboto";
+    font-weight: 500;
+    color: hsl(228, 34%, 66%);
+}

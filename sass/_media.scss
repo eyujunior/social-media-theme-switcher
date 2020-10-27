@@ -1,0 +1,23 @@
+@media screen and (max-width: 720px) {
+    .header {
+        flex-direction: column;
+        padding: 4rem 8rem 16rem 8rem;
+    }
+
+    .social-media {
+        transform: translateY(-6rem);
+    }
+
+    .overview
+    {
+        .heading-1
+        {
+            margin-top: 8rem;
+        }
+    }
+
+    .toggle
+    {
+        margin:2rem 0 0 -20rem;
+    }
+}
